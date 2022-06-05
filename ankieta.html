@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ankieta</title>
+  <link rel="stylesheet" href="ankietastyle.css">
+</head>
+
+<body>
+    <div id="container">
+  <form action="mailto:natalia.przemylska@tm1.edu.pl" method="POST">
+    <h2>Proszę o wypełnienie krótkiego formularza.</h2>
+    <h3>Wypełnienie nie powinno Ci zająć więcej niż 3 minuty.</h3>
+
+    <hr>
+    
+<span>Czy podoba Ci się layout strony?</span><br>
+    <input type="radio" name="layout" id="tak" checked value="Tak"><label  class="okioto" for="tak">Tak</label><br>
+
+    <input type="radio" name="layout" id="nie" value="Nie"><label
+        for="nie"  class="okioto">Nie</label><br>
+
+    <input type="radio" name="layout" id="meh" value="meh"><label class="okioto" for="meh">ujdzie, ale mogło być lepiej</label><br>
+
+    <hr>
+
+    <span>Które z poniższych stron Cię zainteresowały?</span><br>
+    <input type="checkbox" name="info1" id="odp1" value="1"><label for="odp1" class="okioto">Genshin</label><br>
+
+    <input type="checkbox" name="info1" id="odp2" value="2"><label
+        for="odp2"  class="okioto">Harvset Town</label><br>
+
+        <input type="checkbox" name="info1" id="odp3" value="3"><label class="okioto" for="odp3">Cut The Rope</label><br>
+
+        <input type="checkbox" name="info1" id="odp4" value="4"><label class="okioto" for="odp4">Alto's adventure</label><br>
+
+        <input type="checkbox" name="info1" id="odp5" value="5"><label class="okioto" for="odp5">Bad Piggies</label><br>
+
+        <input type="checkbox" name="info1" id="odp6" value="6"><label class="okioto" for="odp6">Plants vs zombies</label><br>
+
+    <input type="checkbox" name="info1" id="odp7" value="3"><label class="okioto" for="odp7">Gacha</label><br>
+<hr>
+<span>Czy informacje były przedstawione w czytelny sposób?</span><br>
+
+    <select name="info" id="info">
+        <option value="nope">Nie, nic nie zrozumiałxm</option>
+        <option value="średnio">Nie najlepiej, nie najgorzej</option>
+        <option value="dobrze">Tak, bardzo czytelnie</option>
+        <option value="idc">nie wczytywałxm się</option>
+    </select>
+
+    <hr>
+
+    <label for="uwagi"><span>Uwagi:</span></label><br>
+    <textarea name="uwagi" id="uwagi" cols="100" rows="10" maxlength="50"></textarea>
+
+    <hr>
+
+    <input class="prz" type="reset" value="wyczyść">&nbsp;&nbsp;
+    <input class="prz" type="submit" value="Wyślij">
+</form>
+</div>
+</div>
+</body>
+</html>

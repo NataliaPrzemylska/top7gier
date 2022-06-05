@@ -1,0 +1,265 @@
+#menuTel {
+    width: 100%;
+    height: 15vh;
+    background-color: #1B263B;
+    position: fixed;
+    display: block;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+}
+
+#logo {
+    padding-top: 4vh;
+    padding-left: 5vh;
+}
+
+#logo a {
+    font-size: 5vh;
+    color: #415A77;
+    font-family: TAhoma;
+    text-decoration: none;
+    z-index: 10;
+    position: fixed;
+}
+
+
+#logo span {
+    font-family: TAhoma;
+    padding-top: 4vh;
+    padding-left: 5vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 5vh;
+    color: #415A77 ;
+    text-decoration: none;
+    filter: blur(4px);
+    z-index: 9;
+}
+
+
+
+
+#menuimg {
+    width: 15vh;
+    height: 15vh;
+}
+
+#buttonholder {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+#tellinks {
+    display: none;
+    position: fixed;
+    right: 0px;
+    background-color: #778DA9;
+    color: #1B263B;
+    top: 15vh;
+    z-index: 1;
+    border-bottom-left-radius: 3vh;
+}
+
+#tellinks a {
+    display: flex;
+    width: 20vh;
+    height: 7vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 2vh;
+    color: #E0E1DD;
+}
+#tellinks span {
+    display: flex;
+    width: 20vh;
+    height: 9vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 2vh;
+    color: #778DA9;
+    background-color: #415A77;
+}
+
+#tellinks a:last-child{
+    height: 9vh;
+}
+
+#tellinks hr {
+    color: #E0E1DD;
+}
+
+#footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3vh;
+    background-color: #778DA9;
+    color: #1B263B;
+    font-size: 2.5vh;
+    font-family: Tahoma;
+}
+
+#diviframe {
+    width: 100%;
+    height: 82vh;
+    position: fixed;
+    top: 15vh;
+}
+
+#oGrach {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+#linkizew {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 15vh;
+    background-color: #778DA9;
+    color: #1B263B;
+    z-index: 1;
+    border-bottom-left-radius: 3vh;
+}
+
+#linkizew a {
+    display: flex;
+    width: 20vh;
+    height: 7vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 2vh;
+    color: #ffffff;
+
+}
+
+#linkizew a:last-child {
+    height: 9vh;
+}
+
+#linkizew span {
+    display: flex;
+    width: 20vh;
+    height: 9vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 2vh;
+    color: #778DA9;
+    background-color: #415A77;
+}
+
+#linkizew hr {
+    color: #E0E1DD;
+}
+#menudownload{
+    display: none;
+}
+#menudown {
+    border: none;
+    display: none;
+    position: fixed;
+    font-size: 2vh;
+    width: 20vh;
+    height: 7.5vh;
+    top: 7.5vh;
+    right: 0;
+    background-color: transparent;
+    color: #45536e;
+}
+#menudown:hover{
+    cursor: pointer;
+}
+#menuRoz {
+    border: none;
+    display: block;
+    position: fixed;
+    font-size: 2vh;
+    width: 20vh;
+    height: 7.5vh;
+    right: 0;
+    background-color: transparent;
+    color: #45536e;
+}
+#menuRoz:hover{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:600px) {
+    #menuRoz{
+        width: 20vh;
+        height: 15vh;
+    }
+    
+    #menudownload{
+        padding: 0;
+        z-index: 0;
+        display: block;
+    }
+    #menudownload button{
+        background-color: #d0dbe8;
+        border: 0;
+        position: fixed;
+        right: 0;
+        bottom: 5vh;
+        width: 10vh;
+        height: 10vh;
+        font-size: 4vh;
+        color: #778DA9;
+        border-top-left-radius: 2vh;
+        border-bottom-left-radius: 2vh;
+    }
+    #menudownload button img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (min-width:601px) and (max-width:1200px){
+    #menudown{
+        display: block;
+        width: 20vh;
+        height: 7.5vh;
+        top: 7.5vh;
+    }
+}
+@media screen and (min-width:1201px){
+    #menudown{
+        display: block;
+        width: 20vh;
+        height: 15vh;
+        top: 0;
+        right: 15vh;
+    }
+    #menuRoz{
+        width: 20vh;
+        height: 15vh;
+    }
+}

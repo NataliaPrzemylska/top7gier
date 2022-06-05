@@ -1,0 +1,6 @@
+kolorki:
+czarny:#000000
+ciemnogranatowy: #1B263B
+granwtowy: #415A77
+niebieski: #778DA9
+szary: #E0E1DD 
